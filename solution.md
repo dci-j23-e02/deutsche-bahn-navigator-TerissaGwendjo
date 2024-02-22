@@ -84,7 +84,6 @@ For BookingSchema.Deals:
 INSERT INTO BookingSchema.Deals (DealID, Description, DiscountPercentage, ValidityPeriodStart, ValidityPeriodEnd) VALUES
 (1, 'Spring Sale', 20.00, '2024-03-01', '2024-03-31'),
 (2, 'Weekend Getaway', 15.00, '2024-02-25', '2024-02-27'),
-... -- Add more deals
 (10, 'Summer Special', 25.00, '2024-06-01', '2024-08-31');
 
 4.)
