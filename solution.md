@@ -64,7 +64,6 @@ For RoutesSchema.Trains:
 INSERT INTO RoutesSchema.Trains (TrainID, Name, Type) VALUES
 (1, 'ICE 1', 'InterCity Express'),
 (2, 'IC 2', 'InterCity'),
-...  -- Add more records as needed
 (50, 'RB 50', 'Regionalbahn');
 
 For RoutesSchema.Routes:
