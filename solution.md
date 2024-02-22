@@ -38,7 +38,7 @@ Email VARCHAR(255),
 PhoneNumber VARCHAR(20)
 );
 
--- Create Tickets Table
+Create Tickets Table:
 CREATE TABLE BookingSchema.Tickets (
 TicketID INT PRIMARY KEY,
 CustomerID INT,
@@ -49,7 +49,7 @@ FOREIGN KEY (CustomerID) REFERENCES BookingSchema.Customers(CustomerID),
 FOREIGN KEY (RouteID) REFERENCES RoutesSchema.Routes(RouteID)
 );
 
--- Create Deals Table
+Create Deals Table:
 CREATE TABLE BookingSchema.Deals (
 DealID INT PRIMARY KEY,
 Description VARCHAR(255),
