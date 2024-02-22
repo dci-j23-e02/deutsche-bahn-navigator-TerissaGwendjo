@@ -73,10 +73,10 @@ INSERT INTO RoutesSchema.Routes (RouteID, DepartureStation, ArrivalStation, Depa
 
 For BookingSchema.Customers:
 INSERT INTO BookingSchema.Customers (CustomerID, Name, Email, PhoneNumber) VALUES
-(1, 'John Doe', 'john@example.com', '123-456-7890'),
-(2, 'Jane Smith', 'jane@example.com', '987-654-3210'),
+(1, 'Teri Gwe', 'teri.gwe@yahoo.com', '123-456-7890'),
+(2, 'Blanche Ngu', 'ngu@yahoo.com', '987-654-3210'),
 ... -- Add more customers
-(50, 'Max Mustermann', 'max@example.com', '555-555-5555');
+(50, 'Mary Fru', 'mary@yahoo.com', '555-555-5555');
 
 For BookingSchema.Tickets:
 INSERT INTO BookingSchema.Tickets (TicketID, CustomerID, RouteID, BookingDate, Price) VALUES
